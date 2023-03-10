@@ -34,9 +34,9 @@
 # b = multiply(100, 200)
 # print("The product of numbers is", b)
 
+# This is a docstring
 def greet(name):
     """Hello everyone welcome to my python code"""
-    print(f"Hello,{name}!")
 
 
 print(greet.__doc__)
