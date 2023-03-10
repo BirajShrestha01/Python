@@ -9,7 +9,10 @@ subject5 = int(input("Enter your marks in subject 5: "))
 
 
 def avg(a, b, c, d, e):
-    """This function takes marks from the user and outputs the average."""
+    """
+    This function takes marks from the user and outputs the average. 
+    To get an average marks we should fiest take input marks from the user ther we stould get a sum of them and divide the sum by the no. of subjects we get average marks of subjects.
+    """
     return (a+b+c+d+e)/5
 
 
